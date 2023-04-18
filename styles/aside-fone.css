@@ -17,6 +17,7 @@
     margin-bottom: 40px;
     color: #FFFFFF;
 }
+
 .aside-fone__text {
     width: 942px;
     height: 200px;
@@ -28,6 +29,7 @@
     letter-spacing: -0.06em;
     color: #FFFFFF;
 }
+
 .aside-fone__button {
     display: block;
     width: 866px;
@@ -53,3 +55,39 @@
     background-color: #fff;
 }
 
+
+
+@media (max-width: 1199px){
+
+    .aside__bg{
+        height: 1184px;
+        padding-top: 150px;
+    }
+
+    .aside-fone__subtitle {
+        width: 100%;
+        height: auto;
+        margin-bottom: 32px;
+    }
+
+    .aside-fone__text {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 58px;
+    }
+
+}
+
+
+
+@media (max-width: 767px){
+
+    
+
+}
+
+@media (max-width: 400px){
+
+    
+    
+}

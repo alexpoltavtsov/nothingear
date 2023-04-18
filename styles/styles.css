@@ -60,5 +60,19 @@ body {
         background-color: red;
     }
 
+    .subtitle{
+        font-size: 60px;
+        line-height: 73.52%;
+    }
+
+}
+
+@media (max-width: 400px){
+
+    .subtitle{
+        font-size: 50px;
+        line-height: 72.52%;
+    }
+    
 }
 

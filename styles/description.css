@@ -37,7 +37,6 @@
 .description-desc__subtitle{
     width: 676px;
     height: 222px;
-    left: 362px;
     margin: 150px auto 80px;
     color: #FF25C2;
 }
@@ -72,3 +71,70 @@
     color: #FFFFFF;
 }
 
+
+
+
+
+@media (max-width: 1199px){
+
+    
+
+}
+
+
+
+@media (max-width: 767px){
+
+    .description__bg{
+        padding-top: 100px;
+        height: 559px;
+    }
+
+    .description__subtitle {
+        width: 308px;
+        height: auto;
+        margin: 0 auto 50px;
+        color: #FF25C2;
+    }
+
+    .description__text {
+    
+        width: 309px;
+        height: 76px;
+        font-size: 19px;
+        line-height: 19px;
+        margin: 0 auto 50px;
+        
+    }
+
+    .description-desc__subtitle{
+        width: 340px;
+        height: auto;
+        margin: 100px auto 50px;
+    }
+
+    .description__item{
+        width: 319px;
+        height: auto;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 0 auto 50px;
+    }
+
+    .description__container{
+        padding-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 400px){
+
+    .description-desc__subtitle{
+        width: 285px;
+    }
+    
+}
