@@ -71,9 +71,10 @@
 .gallery__control-prev {
     width: 50px;
     height: 50px;
-    background-color: rgba(28,28,28,0);
+    background-color: rgba(28,28,28,0); 
     border: medium none;
     cursor: pointer;
+    background-size: cover;
 }
 
 .gallery__control-prev:hover{
@@ -83,11 +84,11 @@
 .gallery__control-next {
     width: 50px;
     height: 50px; 
-    background-color: rgba(28,28,28,0);
+    background-color: rgba(28,28,28,0); 
     border: medium none;
     margin-left: 10px;
     cursor: pointer;   
-}
+}   
 
 .gallery__control-next:hover{
     opacity: 60%;
