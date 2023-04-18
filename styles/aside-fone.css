@@ -10,12 +10,11 @@
 }
 
 
-.aside-fone__subtitle {
+.aside-fone__subhead {
     width: 1150px;
     height: 370px;
     align-items: center;
     margin-bottom: 40px;
-    color: #FFFFFF;
 }
 
 .aside-fone__text {
@@ -64,7 +63,7 @@
         padding-top: 150px;
     }
 
-    .aside-fone__subtitle {
+    .aside-fone__subhead {
         width: 100%;
         height: auto;
         margin-bottom: 32px;
@@ -80,14 +79,39 @@
 
 
 
+@media (max-width:900px){
+
+    .aside-fone__subhead {
+        width: 100%;
+    
+    }
+
+    .aside-fone__button {
+        width: 100%;
+        
+    }
+    
+}
+
+
+
 @media (max-width: 767px){
 
-    
+    .aside__bg{
+        height: 932px;
+        padding-top: 100px;
+    }
 
+    .aside-fone__button {
+        height: 75px;
+        line-height: 75px;
+    }
+
+    .aside-fone__text {
+        font-size: 25px;
+        line-height: 90%;
+        margin: 0 auto 50px;
+    }
+    
 }
 
-@media (max-width: 400px){
-
-    
-    
-}

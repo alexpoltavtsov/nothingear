@@ -22,9 +22,19 @@ body {
 .subtitle{
     font-weight: 700;
     font-size: 100px;
-    line-height: 74.52%;
+    line-height: 73.52%;
     text-align: center;
-    letter-spacing: -0.06em
+    letter-spacing: -0.06em;
+    color: #FF25C2;
+}
+
+.subhead{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 73.52%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
 }
 
 
@@ -40,9 +50,19 @@ body {
     }
 
     body {
-        background-color: aqua;
+        /* background-color: aqua; */
     }
 
+}
+
+
+
+
+@media (max-width: 900px){
+
+    .subhead{
+        font-size: 90px;
+    }
 }
 
 
@@ -57,12 +77,16 @@ body {
     }
 
     body {
-        background-color: red;
+        /* background-color: red; */
     }
 
     .subtitle{
         font-size: 60px;
         line-height: 73.52%;
+    }
+
+    .subhead{
+        font-size: 45px;
     }
 
 }

@@ -14,7 +14,6 @@
     width: 560px;
     height: 148px;
     margin: 0 auto 39px;
-    color: #FF25C2;
 }
 
 .description__text {
@@ -94,7 +93,6 @@
         width: 308px;
         height: auto;
         margin: 0 auto 50px;
-        color: #FF25C2;
     }
 
     .description__text {
@@ -132,6 +130,10 @@
 
 
 @media (max-width: 400px){
+
+    .description__subtitle {
+        width: 275px;
+    }
 
     .description-desc__subtitle{
         width: 285px;
