@@ -10,6 +10,12 @@
     height: 644px;
 }
 
+.presentation__img-model_black{
+    border: 0.5px solid #FFFFFF;
+    border-radius: 30px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
 
 
 

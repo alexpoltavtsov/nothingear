@@ -15,7 +15,7 @@
   <title>nothingear</title>
 </head>
 
-<!-- <body> -->
+<!-- <body>  -->
 <!-- <header class="header">
     <div class="container">
       <nav class="nav">
@@ -35,7 +35,7 @@
         </ul>
       </nav>
     </div>
-  </header> -->
+  </header>  -->
 
 <section class="banner">
   <div class="container banner-container">
@@ -77,7 +77,10 @@
 
       <div class="presentation__wrapper">
         <div class="presentation__img">
-          <img class="presentation__img-model" src="resources/ear-black.png" alt="фото черной модели наушников">
+          <picture>
+            <source media="(max-width: 767px)" srcset="resources/ear-black-mobile.png">
+          <img class="presentation__img-model presentation__img-model_black" src="resources/ear-black.png" alt="фото черной модели наушников">
+        </picture>
         </div>
         <div class="presentation__inner-designation">
           <p class="presentation__designation">Наушники Ear Black</p>
@@ -163,7 +166,7 @@
           ваши наушники.</p>
       </div>
     </div> 
-  </section>
+  </section> 
 
 <section class="aside-fone">
     <div class="aside__bg">
@@ -179,12 +182,12 @@
           target="_blank">КУПИТЬ</a>
       </div>
     </div>
-  </section> 
+  </section>
 
 
-<!-- <section class="gallery-section">
+<section class="gallery-section">
     <div class="container">
-      <h2 class="subtitle gallery-section__subtitle">Чистый звук, точно настроенный
+      <h2 class="subhead gallery-section__subhead">Чистый звук, точно настроенный
       </h2>
       <div class="gallery">
 
@@ -192,20 +195,20 @@
           <div class="gallery__slide gallery__slide_active">
             <img class="gallery__image" src="resources/gallery1.png" alt="фотография наушника">
             <div class="gallery__inner-text gallery__inner-text_top">
-              <p class="gallery__text">Мы расчистили путь для превосходного звука, голоса и связи</p>
-            </div>
+              <p class="gallery__text gallery__text_top">Мы расчистили путь для превосходного звука, голоса и связи</p>
+            </div> 
           </div>
           <div class="gallery__slide">
             <img class="gallery__image" src="resources/gallery2.png" alt="фотография девушки">
             <div class="gallery__inner-text">
               <p class="gallery__text">Телефон Nothing Phone (1) это крупнейший запуск года в области смартфонов</p>
-            </div>
+            </div> 
           </div>
           <div class="gallery__slide">
             <img class="gallery__image" src="resources/gallery3.png" alt="фотография цветка">
             <div class="gallery__inner-text">
               <p class="gallery__text">Дизайн, выходящий за пределы поверхности.</p>
-            </div>
+            </div> 
           </div>
           <div class="gallery__slide">
             <img class="gallery__image" src="resources/gallery4.png" alt="фотография попугая">
@@ -214,14 +217,25 @@
             </div>
           </div>
         </div>
-        
-        <div class="gallery__controls">
-          <button class="gallery__control-prev"><img src="resources/Vector-left.png" alt=""></a></button>
-          <button class="gallery__control-next"><img src="resources/Vector-right.png" alt=""></a></button>
+        <div class="gallery-wrapp__controls">
+          <div class="gallery__controls">
+            <button class="gallery__control-prev">
+              <picture>
+
+                <img src="resources/Vector-left.png" alt="Кнопка вектор в лево"></a>
+              </picture>
+            </button>
+            <button class="gallery__control-next">
+              <picture>
+
+                <img src="resources/Vector-right.png" alt="Кнопка вектор в право"></a>
+              </picture>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
 <!-- <footer class="footer">
     <div class="container">
