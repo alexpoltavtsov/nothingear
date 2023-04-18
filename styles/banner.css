@@ -108,13 +108,13 @@ h1{
 @media (max-width: 767px){
 
     .banner__title{
-        width: 373px;
+        width: 315px;
         height: 76px;
         margin: 0 auto 66px;
     }
 
     .banner-box{
-        left: 40px;
+        left: 7px;
     }
 
     
