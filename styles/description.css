@@ -1,0 +1,74 @@
+
+
+.description__bg {
+    height: 786px;
+    padding-top: 190px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%), url(image.png);
+    background-image: url('../resources/person.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.description__subtitle {
+    width: 560px;
+    height: 148px;
+    margin: 0 auto 39px;
+    color: #FF25C2;
+}
+
+.description__text {
+    
+    width: 671px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto 39px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.description__container{
+    padding-bottom: 39px;
+}
+
+.description-desc__subtitle{
+    width: 676px;
+    height: 222px;
+    left: 362px;
+    margin: 150px auto 80px;
+    color: #FF25C2;
+}
+
+.description__inner-icon{
+    width: 54px;
+    height: 54px;
+    background: #FF25C2;
+    border-radius: 100px;  
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.description__icon {
+    height: 16px;
+    width: 16px;
+    
+}
+
+.description__item{
+    width: 507px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin: 0 auto 80px;
+    color: #FFFFFF;
+}
+

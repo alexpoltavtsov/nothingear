@@ -1,0 +1,64 @@
+@import "./header.css";
+@import "./presentation.css";
+@import "./description.css";
+@import "./footer.css";
+@import "./banner.css";
+@import "./aside-fone.css";
+@import "./gallery.css";
+
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.subtitle{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 74.52%;
+    text-align: center;
+    letter-spacing: -0.06em
+}
+
+
+
+
+@media (max-width: 1199px){
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+
+    body {
+        /* background-color: aqua; */
+    }
+
+}
+
+
+
+@media (max-width: 767px){
+
+    .container {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        
+    }
+
+    body {
+        /* background-color: red; */
+    }
+
+}
+

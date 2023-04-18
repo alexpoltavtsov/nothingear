@@ -1,0 +1,25 @@
+.header{
+    padding: 44px 0 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center; 
+    column-gap: 46px;
+      
+}
+
+.menu__item{
+    height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em; 
+    color: #FFFFFF;
+    text-decoration: none;   
+}
+
+.menu__item:hover{
+    color: #FFFFFF;
+    opacity: 50%;
+}
