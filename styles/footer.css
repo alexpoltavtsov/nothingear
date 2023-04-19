@@ -10,7 +10,6 @@
     width: 850px;
     margin-top: 71px;
     margin-bottom: 200px;
-    /* column-gap: 32px; */
 }
 
 .footer-social__menu-item{
@@ -55,10 +54,15 @@
 
 @media (max-width: 1199px){
 
+    .footer-social__menu-item:hover{
+        color: #FFFFFF;
+    }
     .footer-social__menu{
         margin-top: 58px;
         margin-bottom: 178px;
     }
+
+    
 
 }
 
