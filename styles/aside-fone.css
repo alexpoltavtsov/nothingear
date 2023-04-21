@@ -29,7 +29,7 @@
     color: #FFFFFF;
 }
 
-.aside-fone__button {
+.aside-fone__btn {
     display: block;
     width: 866px;
     height: 110px;
@@ -45,14 +45,126 @@
     border: 1px solid #FFFFFF;
     border-radius: 100px;
     opacity: 50%;
+    background-color: unset;
+    cursor: pointer;
 
 }
 
-.aside-fone__button:hover{
+.aside-fone__btn:hover{
     color: black;
     opacity: 30%;
     background-color: #fff;
 }
+
+.body_fixed{
+    overflow: hidden;
+}
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+}
+
+.popup_open{
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__content{
+    position: relative;
+    width: 777px;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.popup__title{
+    height: 61px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 4px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.popup__text{
+    height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.popup__close-btn{
+    position: absolute;
+    right: 43px;
+    top: 43px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.popup-form {
+    margin-left: 55px;
+    margin-right: 79px;
+}
+
+.popup-form-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    letter-spacing: -0.03em;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.popup-form-input:focus{
+    outline: none;
+}
+
+.popup-form-btn {
+    width: 100%;
+    height: 67px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 40px;
+    margin-bottom: 86px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    background-color: #AD1818;
+    border: none ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 
 
 
@@ -86,7 +198,7 @@
     
     }
 
-    .aside-fone__button {
+    .aside-fone__btn {
         width: 100%;
         
     }
@@ -102,7 +214,7 @@
         padding-top: 100px;
     }
 
-    .aside-fone__button {
+    .aside-fone__btn {
         height: 75px;
         line-height: 75px;
     }
@@ -112,6 +224,65 @@
         line-height: 90%;
         margin: 0 auto 50px;
     }
+
+    .popup{
+        padding: 12px;
+    }
+
+    .popup-btn {
+        Height: 100px;
+        line-height: 100px;
+        font-size: 23px;  
+    }
+
+    .popup__title{
+        height: 34px;
+        font-size: 25px;
+        line-height: 34px;
+        margin-top: 80px;
+        margin-bottom: 11px;   
+    }
     
+    .popup__text{
+        width: 270px;
+        margin: 0 auto 45px;
+        height: 24px;
+        font-size: 18px;
+        line-height: 19px;
+    }
+    
+    .popup__close-btn{
+
+        right: 35px;
+        top: 30px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .popup-form {
+        margin-left: 16px;
+        margin-right: 24px;
+    }
+    
+    .popup-form-input {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .popup-form-btn {
+        width: 100%;
+        height: 67px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+        background-color: #AD1818;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 }
 

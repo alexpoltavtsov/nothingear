@@ -217,12 +217,34 @@
         <p class="subhead aside-fone__subhead">
           Наушники nothing ear (1) используют технологию clear voice и три микрофона высокой четкости
         </p>
-        <p class="aside-fone__text">Пока вы говорите, передовые алгоритмы анализируют миллион голосовых и звуковых
+        <p class="aside-fone__text">
+          Пока вы говорите, передовые алгоритмы анализируют миллион голосовых и звуковых
           комбинаций (даже при скорости ветра до 40 км/ч), чтобы изолировать и усиливать ваш голос с удивительной
-          точностью.</p>
-        <a class="aside-fone__button"
-          href="https://shop.mts.ru/product/besprovodnye-naushniki-s-mikrofonom-nothing-ear-1-belye?utm_referrer=https%3A%2F%2Fwww.google.com%2F"
-          target="_blank">КУПИТЬ</a>
+          точностью.
+        </p>
+        <button class="js-btn aside-fone__btn">КУПИТЬ</button>
+        <div class="js-popup popup">
+          <div class="js-popup__content popup__content">
+            <p class="popup__title">Заказать товар</p>
+            <p class="popup__text">
+              Заполните форму, мы свяжемся с вами в течение часа
+            </p>
+            <div class="js-popup__close-btn popup__close-btn">
+              <picture>
+                <source media="(max-width: 767px)" srcset="resources/cross-black-mobile.png" />
+                <img src="resources/cross-black.png" alt="Кнопка закрытия всплывающего окна" />
+              </picture>
+            </div>
+            <form class="popup-form" action="#">
+              <input class="popup-form-input" type="text" name="name" placeholder="Имя" />
+              <input class="popup-form-input" type="email" name="email" placeholder="Электронная почта" />
+              <input class="popup-form-input" type="tel" name="phone" placeholder="Номер телефона" />
+              <button class="popup-form-btn" type="submit">
+                Отправить
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </section> 
@@ -325,7 +347,7 @@
     </div>
   </footer>
 
-
+  <script src="popup.js"></script>
   <script src="burger.js"></script>
 <script src="gallery.js"></script>
 </body>
